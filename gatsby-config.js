@@ -5,5 +5,15 @@
  */
 
 module.exports = {
-  /* Your site config here */
+  plugins: [
+    {
+      resolve: 'gatsby-plugin-google-fonts',
+      options: {
+        fonts: [
+          'Montserrat',
+          'sans-serif\:300,400,700'
+        ]
+      }
+    }
+  ]
 }
